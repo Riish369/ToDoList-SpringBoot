@@ -2,23 +2,23 @@ package com.example.ToDoList.model;
 
 public class ToDo {
 
-    private int id;
+    private Integer id;
     private String title;
     private Boolean completed;
 
     public ToDo(){};
 
-    public ToDo(int id, String title, Boolean completed) {
+    public ToDo(Integer id, String title, Boolean completed) {
         this.id = id;
         this.title = title;
         this.completed = completed;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
